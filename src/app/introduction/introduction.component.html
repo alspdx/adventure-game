@@ -1,3 +1,15 @@
 <p>
-  introduction works!
+  Hello, {{user.name}}.
 </p>
+
+<p>
+You enter the grocery store, unaware of what future is waiting for you within... The door slide open with a <em>woosh</em>, the scent of waxy fruits wafting into your nostrils with a "come-hither" tingle.
+</p>
+
+<p>
+So many departments... which direction will you go?
+</p>
+
+<button (click)='goToDepartment("meat")'>Meat/Seafood Department</button>
+<button (click)='goToDepartment("cereal")'>Cereal Aisle</button>
+<button (click)='goToDepartment("produce")'>Produce</button>
